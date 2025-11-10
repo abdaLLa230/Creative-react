@@ -1,6 +1,6 @@
 import React from 'react'
 import style from"./MindCH5.module.css"
-
+import ch5image from "../../assets/chapter5.png"
 
 
 
@@ -24,7 +24,7 @@ export default function MindCH5() {
         </div>
         <div className="bg-gray-100 rounded-lg p-3 flex items-center justify-center">
           <img 
-            src="src\assets\chapter 5.png" 
+            src={ch5image} 
             alt="Chapter 5: Design Thinking Process" 
             className="rounded w-auto h-[550px] object-fill"
           />
