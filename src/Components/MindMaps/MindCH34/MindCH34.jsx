@@ -27,7 +27,7 @@ export default function MindCH34() {
         </div>
         <div className="bg-gray-100 rounded-lg p-3 flex items-center justify-center">
           <img 
-            src="src\assets\chapter Three + Four.png" 
+            src={ch34image} 
             alt="Chapters 3+4: Theories and Variables" 
             className="rounded w-auto h-[550px] object-fill"
           />
