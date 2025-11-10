@@ -1,6 +1,6 @@
 import React from 'react'
 import style from"./MindCH5.module.css"
-import ch5image from "../../assets/chapter5.png"
+import ch5image from "../../../assets/chapter5.png"
 
 
 
