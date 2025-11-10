@@ -1,6 +1,6 @@
 import React from 'react'
 import style from"./MindCH12.module.css"
-
+import ch12image from "../../assets/chapter12.png"
 
 
 
@@ -24,7 +24,7 @@ export default function MindCH12() {
         </div>
         <div className="bg-gray-100 rounded-lg  flex items-center justify-center">
           <img 
-            src="src\assets\chapter one + two.png" 
+            src={ch12image} 
             alt="Chapters 1+2: Foundations of Creative Thinking" 
             className="rounded w-auto h-[500px] object-fill"
           />
