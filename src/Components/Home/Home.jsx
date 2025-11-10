@@ -1,6 +1,6 @@
 import React from 'react'
 import style from"./Home.module.css"
-
+import crativeimage from "../../assets/creativethinking.jpeg"
 
 
 
@@ -13,7 +13,6 @@ export default function Home() {
         <h1 className="text-3xl md:text-4xl font-bold text-blue-800 mb-4 italic">Creative Thinking</h1>
       </div>
       
-      {/* About Creative Thinking */}
       <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 mb-8">
         <h2 className="text-2xl font-bold mb-4 text-blue-600">About Creative Thinking</h2>
         <div className="grid md:grid-cols-2 gap-6">
@@ -28,13 +27,12 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-gray-100 rounded-lg flex items-center justify-center">
-            <img src="src\assets\creativethinking.jpeg"
+            <img src={crativeimage}
                  alt="Creative Thinking" className="rounded-2xl w-full h-72 md:object-cover object-fill" />
           </div>
         </div>
       </div>
       
-      {/* Key Benefits */}
       <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 mb-10">
         <h2 className="text-2xl font-bold mb-4 italic text-blue-600">Key Benefits of Creative Thinking</h2>
         <div className="grid md:grid-cols-3 gap-4">
