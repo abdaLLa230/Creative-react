@@ -46,7 +46,7 @@ export default function CreativeThinking() {
       <h2 className="text-2xl font-bold italic text-blue-600 mb-5">To be good character : </h2>
       <div className="bg-gray-100 lg:mb-6 rounded-lg flex items-center justify-center">
         <img 
-          src="https://github.com/abdaLLa230/Creative-react/blob/main/src/assets/creative%20thinking.jpeg"
+          src="src\assets\image.png"
           alt="Creative Thinking" 
           className="rounded-2xl w-auto h-[550px] object-contain"
         />
