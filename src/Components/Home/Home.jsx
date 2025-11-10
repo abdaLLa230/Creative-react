@@ -28,7 +28,7 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-gray-100 rounded-lg flex items-center justify-center">
-            <img src="src\assets\creative thinking.jpeg"
+            <img src="src\assets\creativethinking.jpeg"
                  alt="Creative Thinking" className="rounded-2xl w-full h-72 md:object-cover object-fill" />
           </div>
         </div>
