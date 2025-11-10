@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import style from"./CreativeThinking.module.css"
-
+import image from "../../assets/image.png"
 
 
 
@@ -46,7 +46,7 @@ export default function CreativeThinking() {
       <h2 className="text-2xl font-bold italic text-blue-600 mb-5">To be good character : </h2>
       <div className="bg-gray-100 lg:mb-6 rounded-lg flex items-center justify-center">
         <img 
-          src="src\assets\image.png"
+          src={image}
           alt="Creative Thinking" 
           className="rounded-2xl w-auto h-[550px] object-contain"
         />
