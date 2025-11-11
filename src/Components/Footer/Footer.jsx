@@ -102,11 +102,11 @@ export default function Footer() {
                       +20 1033574732
                     </span>
                   </li>
-                  <li className="flex items-center text-gray-700 group">
+                  <li className="flex pb-3 lg:pb-0 items-center text-gray-700 group">
                     <div className="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center mr-4 p-3 group-hover:scale-110 transition-transform duration-300">
                       <i className="fas fa-envelope text-purple-400"></i>
                     </div>
-                    <span className="group-hover:text-blue-600 pb-3 md:pb-0 transition-colors duration-300"> web-application@o6u.edu.eg</span>
+                    <span className="group-hover:text-blue-600 transition-colors duration-300"> web-application@o6u.edu.eg</span>
                   </li>
                 </ul>
               </div>
