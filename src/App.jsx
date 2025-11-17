@@ -15,11 +15,11 @@ import MindMaps from './Components/MindMaps/MindMaps'
 let x = createBrowserRouter([
   {path:"" , element : <Layout/> ,
   children : [
-    { index : true  , element : <MindMaps/>},
+    { index : true  , element : <Home/>},
     {path:"Chapter" , element : <Chapters/>},
     {path:"Creative", element : <CreativeThinking/>},
     {path:"Feed"    , element : <Feedback/>},
-    // {path:"Mindmap" , element : <MindMaps/>},
+    {path:"Mindmap" , element : <MindMaps/>},
     {path:"*"       , element : <Notfound/>},
 
   
